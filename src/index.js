@@ -7,7 +7,6 @@ import NotFoundPage from './pages/NotFoundPage';
 
 
 
-
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>

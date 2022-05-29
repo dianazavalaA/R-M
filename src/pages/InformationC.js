@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
+
 function InformationC() {
 
     let {id} = useParams();
@@ -27,12 +28,23 @@ function InformationC() {
     return (
         <div>
                <div>
-                    <h6>{item.status}</h6>
-                    <h6>{item.species}</h6>
-                    <h6>{item.gender}</h6>
-                    <hr />
+               <table class="w-full">
+                <thead class="bg-gray-50 border-b-2 border-gray-200">
+                  <tr>
+                    <th>Status</th>
+                    <th>Species</th>
+                    <th>Gender</th>
+                  </tr>
+                </thead>
+                  <tbody>
+                    <tr class= "bg-white">
+                      <td class="p-3 text-sm text-gray-700">{item.status}</td>
+                      <td class="p-3 text-sm text-gray-700">{item.species}</td>
+                      <td class="p-3 text-sm text-gray-700">{item.gender}</td>
+                    </tr>
+                  </tbody>
+                </table>
                </div>
-          
         </div>
     );
 }

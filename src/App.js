@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Characters from "./components/Characters";
 import Pagination from "./components/Pagination";
+import "./index.css";
 
 
 function App() {

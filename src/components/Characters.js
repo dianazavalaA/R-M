@@ -14,7 +14,7 @@ function Characters({ characters = [] }) {
                         </div>
                        
                             <div>
-                                <Link class="bg-sky-600 hover:bg-sky-700" to= {`/Information/${item.id}`}>Information</Link>
+                                <Link class="bg-gray-500 hover:bg-black-600 active:bg-gray-700 focus:outline-none focus:ring focus:ring-blue-300 py-1 px-3 rounded" to= {`/Information/${item.id}`}>Information</Link>
                             </div>
                        
                     </div>
