@@ -16,13 +16,13 @@ const Pagination = ({ prev, next, onPrevious, onNext }) => {
             {prev ? (
             
                 <li className='page-item'>
-                    <button className="page-link" onClick={handlePrevious}>Previous</button>
+                    <button class="bg-sky-600 hover:bg-sky-700 rounded" onClick={handlePrevious}>Previous</button>
                 </li>
             ) : null}
             {next ? ( 
             
                 <li className="page-item">
-                    <button className="page-link" onClick={handleNext}>Next</button>
+                    <button class="bg-sky-600 hover:bg-sky-700 rounded" onClick={handleNext}>Next</button>
                 </li> 
            ) : null}
         </ul>
