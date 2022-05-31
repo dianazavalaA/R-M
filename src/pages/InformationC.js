@@ -49,7 +49,7 @@ function InformationC() {
                   </tbody>
                 </table>
 
-                <Link class="bg-gray-500 hover:bg-black-600 active:bg-gray-700 focus:outline-none focus:ring focus:ring-blue-300 py-1 px-3 rounded" to="Characters">Home</Link>
+                <Link class="bg-gray-500 hover:bg-black-600 active:bg-gray-700 focus:outline-none focus:ring focus:ring-blue-300 py-1 px-3 rounded" to={`/`}>Home</Link>
 
                </div>
         </div>
