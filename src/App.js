@@ -41,9 +41,6 @@ function App() {
 
       <div className="container mt-5">
         <Pagination 
-          prev={info.prev} 
-          next={info.next}  
-          onPrevious={onPrevious} 
           onNext={onNext}
         />
 

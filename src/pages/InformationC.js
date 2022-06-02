@@ -41,10 +41,10 @@ function InformationC() {
                 </thead>
                   <tbody>
                     <tr class= "bg-white">
-                      <td class="p-3 text-sm text-gray-700">{item.name}</td>
-                      <td class="p-3 text-sm text-gray-700">{item.status}</td>
-                      <td class="p-3 text-sm text-gray-700">{item.species}</td>
-                      <td class="p-3 text-sm text-gray-700">{item.gender}</td>
+                      <td class="p-3 text-sm text-gray-700 border border-slate-600">{item.name}</td>
+                      <td class="p-3 text-sm text-gray-700 border border-slate-600">{item.status}</td>
+                      <td class="p-3 text-sm text-gray-700 border border-slate-600">{item.species}</td>
+                      <td class="p-3 text-sm text-gray-700 border border-slate-600">{item.gender}</td>
                     </tr>
                   </tbody>
                 </table>
